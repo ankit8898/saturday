@@ -8,6 +8,10 @@ In Rails 3+, add this to your Gemfile and run the bundle command.
 
   gem 'saturday'
 
+Require Saturday in which ever class you want.
+
+  require 'saturday'
+
 == Usage
 
 There are current two helper methods available
