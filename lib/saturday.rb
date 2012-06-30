@@ -1,5 +1,8 @@
+require 'saturday/dates'
 class Saturday
-  def self.weekend
-    puts "I love it!"
-  end
+	def self.dates(year,month,date)
+		date  = Dates.new(year,month,date)
+		date.month
+	end
+
 end
