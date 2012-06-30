@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'saturday'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2012-06-30'
   s.summary     = "Saturday !"
   s.description = "A Gem to find saturdays in a month"
@@ -8,7 +8,8 @@ Gem::Specification.new do |s|
   s.email       = 'ankit.gupta8898@gmail.com'
   s.files       = [
                     "lib/saturday.rb",
-                    "lib/saturday/dates.rb"]
+                    "lib/saturday/dates.rb",
+                    "bin/saturday"]
   s.require_paths = ["lib"]
   s.executables << 'saturday'
   s.rubygems_version = "1.8.11"
