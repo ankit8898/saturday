@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = 'saturday'
-  s.version     = '1.0.0'
+  s.version     = '1.1.0'
   s.date        = '2012-06-30'
   s.summary     = "Saturday helps you find Saturday's for a month/year or month-year!"
-  s.description = "A Gem to find saturdays in a month"
+  s.description = "A Gem to find Saturdays in a month or a year or in a given month or year"
   s.authors     = ["Ankit gupta"]
   s.email       = 'ankit.gupta8898@gmail.com'
   s.files       = [
