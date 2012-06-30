@@ -1,2 +1,3 @@
+#!/usr/bin/env ruby
 require 'saturday'
 puts Saturday.dates(2012,3,4)
