@@ -1,4 +1,4 @@
-require 'saturday/dates'
+
 class Saturday
 	def self.dates(year,month,date)
 		date  = Dates.new(year,month,date)
@@ -6,3 +6,4 @@ class Saturday
 	end
 
 end
+require 'saturday/dates'
