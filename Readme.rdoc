@@ -2,6 +2,8 @@
 
 Saturday helps you find the saturdays in a month OR by month/year.  Implementation on Pure Ruby {Date Class}[http://ruby-doc.org/stdlib-1.9.3/libdoc/date/rdoc/Date.html].
 
+*Note:* The Saturday project has been merged into {days_picker}[https://rubygems.org/gems/days_picker] project kindly refer to {days_picker}[https://rubygems.org/gems/days_picker] .
+
 == Installation
 
 In Rails 3+, add this to your Gemfile and run the bundle command.
@@ -9,6 +11,8 @@ In Rails 3+, add this to your Gemfile and run the bundle command.
   gem 'saturday'
 
 == Usage
+
+  require 'saturday'
 
 There are current two helper methods available
 
